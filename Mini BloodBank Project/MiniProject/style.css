@@ -1,0 +1,80 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('blo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: -12%; /* This ensures that the background image remains fixed while scrolling */
+}
+
+#full {
+    width: 100%;
+    height: auto;
+}
+
+#inner_full {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+#inner_full h2{
+    align-items: center;
+}
+
+#header {
+    margin-top: -1.5%;
+    width: 113%;
+    height: 50px;
+    border-width: 2px;
+    background-color: red;
+    color: rgb(233, 230, 230);
+}
+
+
+#body {
+    width: 100%;
+    height: 400px;
+}
+
+#footer {
+    width: 113%;
+    height: 70px;
+    background-color: red;
+    color: white;
+}
+
+ul li{
+    width: 20% ;
+    height: 50px;
+    line-height: 100px;
+    margin-left: 300px;
+    background: rgb(241, 103, 103);
+    color: white;
+    float: left;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#form {
+    width: 80%;
+    height: 250px;
+    margin-left: 155px;
+    margin-bottom: -5;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
